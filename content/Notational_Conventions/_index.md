@@ -1,0 +1,40 @@
+---
+title: "4. 标准规范"
+anchor: "4_Notational_Conventions"
+weight: 400
+---
+
+数据包的格式使用本章定义的符号描述，这些符号与《[QUIC协议]()》中使用的一致。
+
+复杂的字段被命名后，由紧随命名的一个以一对花括号括起来的字段列表描述，列表中的字段以逗号分隔。
+
+单个字段包括长度信息、带正号的定值、可选值或本字段的副本。单个字段使用下述标准规范，且所有长度都以比特为单位：
+
+
+`x (A)`: 表示`x`是`A`比特长度
+
+`x (A..B)`: 表示`x`的长度可以是从`A`到`B`的所有值，省略`A`表示最小零位，并且省略`B`表示没有设置上限。这种格式的值总是以字符边界结束。
+
+`x (L) = C`: 表示`x`有一个定值`C`，且`x`的长度为`L`，`L`可以用上述任何长度格式
+
+`x (L)...`: 表示`x`重复0次或以上次数，且每个实例长度为`L`
+
+本文使用网络字节序（也就是大端）值。字段每个字节的各个比特从高位到低位排列。
+
+[图1](#Figure_1_Example_Structure)是一个示例结构：
+
+
+<div id="Figure_1_Example_Structure">
+
+
+```
+Example Structure {
+  One-bit Field (1),
+  7-bit Field with Fixed Value (7) = 61,
+  Arbitrary-Length Field (..),
+  Variable-Length Field (8..24),
+  Repeated Field (8) ...,
+}
+```
+<a href="#Figure_1_Example_Structure"><p>图1：示例格式</p></a>
+</div>
