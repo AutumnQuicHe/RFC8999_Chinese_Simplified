@@ -10,9 +10,9 @@ pygmentsStyle = "monokailight"
 
 [params]
 #externalTitle = "RFC8999 QUIC版本通用属性"
-  sidebarColor = "black"
+  sidebarColor = "quic"
   themeColour = "DarkSlateGray"
-  customCss = []
+  customCss = ["css/RFC8999.css"]
 
 [[menu.shortcuts]]
   name = "RFC9000 QUIC：一个基于UDP的安全多路复用传输协议"

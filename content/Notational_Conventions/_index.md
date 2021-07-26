@@ -4,7 +4,7 @@ anchor: "4_Notational_Conventions"
 weight: 400
 ---
 
-数据包的格式使用本章定义的符号描述，这些符号与《[QUIC协议]()》中使用的一致。
+数据包的格式使用本章定义的符号描述，这些符号与《[QUIC协议](#QUIC_TRANSPORT)》中使用的一致。
 
 复杂的字段被命名后，由紧随命名的一个以一对花括号括起来的字段列表描述，列表中的字段以逗号分隔。
 
@@ -24,17 +24,16 @@ weight: 400
 [图1](#Figure_1_Example_Structure)是一个示例结构：
 
 
-<div id="Figure_1_Example_Structure">
-
-
+{{% block_ref
+    indx="Figure_1_Example_Structure"
+    title="图1：示例格式" %}}
 ```
-Example Structure {
-  One-bit Field (1),
-  7-bit Field with Fixed Value (7) = 61,
-  Arbitrary-Length Field (..),
-  Variable-Length Field (8..24),
-  Repeated Field (8) ...,
+示例结构 {
+  一个比特位字段 (1),
+  有固定值的7个比特位字段 (7) = 61,
+  任意长度字段 (..),
+  变量长度字段 (8..24),
+  重复字段 (8) ...,
 }
 ```
-<a href="#Figure_1_Example_Structure"><p>图1：示例格式</p></a>
-</div>
+{{% /block_ref %}}
