@@ -1,4 +1,4 @@
-baseURL = "https://fangqiuhang.github.io/RFC8999_Chinese_Translation/"
+baseURL = "/RFC8999_Chinese_Translation/"
 languageCode = "cn"
 
 title = "RFC8999中文"
@@ -16,13 +16,9 @@ pygmentsStyle = "monokailight"
 
 [[menu.shortcuts]]
   name = "RFC9000 QUIC：一个基于UDP的安全多路复用传输协议"
-  url = "https://fangqiuhang.github.io/RFC9000_Chinese_Translation/"
   weight = 10
-
-[[menu.shortcuts]]
-name = "Hugo docs"
-url = "https://gohugo.io/documentation/"
-weight = 20
+  [menu.shortcuts.Params]
+    lateralurl = "/RFC9000_Chinese_Translation/"
 
 [markup]
   #defaultMarkdownHandler = "goldmark"
