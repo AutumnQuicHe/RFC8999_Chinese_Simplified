@@ -16,14 +16,14 @@ weight: 600
     title="图4：版本协商包" %}}
 ```
 版本协商包 {
-  Header Form (1) = 1,
-  Unused (7),
-  Version (32) = 0,
-  Destination Connection ID Length (8),
-  Destination Connection ID (0..2040),
-  Source Connection ID Length (8),
-  Source Connection ID (0..2040),
-  Supported Version (32) ...,
+  包头格式  (1) = 1,
+  未使用 (7),
+  版本 (32) = 0,
+  目标连接ID长度 (8),
+  目标连接ID (0..2040),
+  源连接ID长度 (8),
+  源连接ID (0..2040),
+  支持版本 (32) ...,
 }
 ```
 {{% /block_ref %}}
