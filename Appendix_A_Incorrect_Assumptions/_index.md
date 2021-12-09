@@ -4,7 +4,7 @@ anchor: "Appendix_A_Incorrect_Assumptions"
 weight: 900
 ---
 
-QUIC版本1《[QUIC协议](#QUIC_TRANSPORT)》有一系列特性没有被保护为外部不可见，但是一般认为在后续的QUIC版本中会更改。
+QUIC版本1《[QUIC协议](#QUIC_TRANSPORT)》有一系列特性没有被保护为外部不可见，但是一般认为可以在后续的QUIC版本中更改。
 
 本章列出了基于QUIC版本1的了解可能做出的一些错误猜想，其中一些陈述甚至对QUIC版本1也是错误的。这个列举并不充分，目的在于做一些阐述。
 
@@ -25,5 +25,5 @@ QUIC版本1《[QUIC协议](#QUIC_TRANSPORT)》有一系列特性没有被保护�
 - QUIC连接ID很少发生改变。
 - QUIC终端会在发送完一个版本协商包后改变QUIC版本。
 - QUIC长包头的版本字段在两个方向上都是一样的。
-- 一个QUIC包版本字段有一个代表某QUIC版本的值意味着连接用的就是相应的QUIC版本。
+- QUIC包版本字段有一个代表某QUIC版本的值意味着连接用的就是相应的QUIC版本。
 - 任何一对QUIC终端之间一次只有一个QUIC连接建联。

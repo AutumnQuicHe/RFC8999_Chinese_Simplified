@@ -5,4 +5,5 @@ weight: 400
 rank: "sub_page"
 siteColour: "rfc8999"
 customCss: "css/RFC8999.css"
+subpage: "enabled"
 ---
