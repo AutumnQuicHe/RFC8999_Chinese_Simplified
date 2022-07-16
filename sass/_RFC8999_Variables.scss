@@ -14,7 +14,7 @@ $scrollbar_track_colour: $main_colour;
 $header_text_shadow: 2px 4px 5px snow;
 $header_border_colour: $theme_colour;
 $header_a_colour: $main_colour;
-$page_table_border: 1px solid $theme_colour;
+$page_table_border: 1px solid $main_colour;
 
 /* content */
 $content_code_background: $font_backgroud_colour;
@@ -36,11 +36,9 @@ $ref_background: #3a0000a3;
 $ref_colour: snow;
 $ref_code_colour: $ref_colour;
 $ref_code_webkit_box_shadow: $code_webkit_box_shadow;
-$tip_background: #454849;
-$tip_border_top_colour: #284750;
-$note_background: #454b5e;
-$note_border_top_colour: #070d1d;
-$info_background: #2b2520;
-$info_border_top_colour: #271200;
-$warn_background: #533f3f;
-$warn_border_top_colour: #270000;
+$ref_table_border: 1px solid snow;
+
+$tip_background: #b2e9fc;
+$note_background: #a0b2ec;
+$info_background: #f3b07a;
+$warn_background: #dd9b9b;
