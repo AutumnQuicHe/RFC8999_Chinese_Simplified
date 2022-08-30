@@ -8,4 +8,4 @@ weight: 300
 
 本文定义了未来QUIC版本需要的属性，即使没有使用规范语言。
 
-本文使用了《[QUIC协议](/RFC9000_Chinese_Translation)》的术语及标准转换。
+本文使用了《[QUIC协议](../RFC9000_Chinese_Simplified)》的术语及标准转换。

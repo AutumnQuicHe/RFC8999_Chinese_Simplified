@@ -4,7 +4,7 @@ anchor: "2_Fixed_Properties_of_All_QUIC_Versions"
 weight: 200
 ---
 
-除了提供安全、多路复用的传输功能，QUIC《[QUIC协议](/RFC9000_Chinese_Translation)》还支持版本协商。
+除了提供安全、多路复用的传输功能，QUIC《[QUIC协议](../RFC9000_Chinese_Simplified)》还支持版本协商。
 这将使得协议能够在以后的岁月中为适应新的需求而更新，而协议的诸多特性可以随着版本的迭代而不断改变。
 
 本文阐述QUIC的一些在新的QUIC版本开发及部署的过程中依旧保持不变的属性。
