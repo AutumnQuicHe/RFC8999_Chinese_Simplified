@@ -4,13 +4,13 @@ anchor: "Appendix_A_Incorrect_Assumptions"
 weight: 900
 ---
 
-QUIC版本1《[QUIC协议](/RFC9000_Chinese_Translation)》有一系列特性没有被保护为外部不可见，但是一般认为可以在后续的QUIC版本中更改。
+QUIC版本1《[QUIC协议](../RFC9000_Chinese_Simplified)》有一系列特性没有被保护为外部不可见，但是一般认为可以在后续的QUIC版本中更改。
 
 本章列出了基于QUIC版本1的了解可能做出的一些错误猜想，其中一些陈述甚至对QUIC版本1也是错误的。这个列举并不充分，目的在于做一些阐述。
 
 **对于一个QUIC版本，下述任意一条甚至所有的陈述都可能是错的**：
 
-- QUIC使用TLS《[QUIC TLS](/RFC9001_Chinese_Translation)》，而链路上一些TLS的信息是可见的。
+- QUIC使用TLS《[QUIC TLS](../RFC9001_Chinese_Simplified)》，而链路上一些TLS的信息是可见的。
 - QUIC长包头只在连接建立阶段发生更改。
 - 五元组上的每条流都会包含一个连接建立过程。
 - 一条流的前几个包使用长包头。
